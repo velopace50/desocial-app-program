@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+desocial_app_program = "G43omJiNp5Mx4EHDTs6PwXeHVV38babx1Kc2zMLa5G7G"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/franglin/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
